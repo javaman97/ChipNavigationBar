@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/icon_home"
+        android:title="Home"
+        app:cnb_iconColor="#3F51B5"
+        />
+    <item
+        android:id="@+id/menu_message"
+        android:icon="@drawable/icon_messenger"
+        android:title="Message"
+        app:cnb_iconColor="#F44336"
+        />
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/icon_profile"
+        android:title="Profile"
+        app:cnb_iconColor="#FF9800"
+        />
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/icon_settings"
+        android:title="Settings"
+        app:cnb_iconColor="#4CAF50"
+        />
+</menu>
